@@ -1,5 +1,5 @@
 {
-  "homepage": "https://rajusharmadata.github.io/https://github.com/rajusharmadata/cicd-testing.git",
+  "homepage": "https://rajusharmadata.github.io/cicd-testing",
   "name": "cicd",
   "private": true,
   "version": "0.0.0",
@@ -9,11 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "react-scripts start",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.1",
